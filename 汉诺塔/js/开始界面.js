@@ -231,7 +231,7 @@ function initTitleLayer(){
 
 function prepare(){
         sound = new LSound();   
-        var url = "../music/Jenő Jandó - I. Allegro.";
+        var url = "./music/Jenő Jandó - I. Allegro.";
         sound.load(url+"mp3,"+url+"ogg,"+url+"wav");
         sound.addEventListener(LEvent.COMPLETE,loadOver);
         initSoundLayer();
